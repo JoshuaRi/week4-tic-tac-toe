@@ -13,9 +13,6 @@ print(board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 printBoard(theBoard)
 
-theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ', 'mid-L': ' ', 'mid-M': '
-   ', 'mid-R': ' ', 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
-
 
 def checkWinner(board, player):    
     print('Checking if ' + player + ' is a winner...')
