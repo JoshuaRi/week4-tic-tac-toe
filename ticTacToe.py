@@ -27,22 +27,22 @@ def checkWinner(board, player):
     # if the player in the variable 'player' has not won.                   #
     #########################################################################
     if board['top-L'] ==player and board['mid-L'] ==player and board['low-L']==player:
-      print(player +' is the winner')
+      return True
     if board['top-L'] ==player and board['top-M'] ==player and board['top-R']==player:
-      print(player +' is the winner')
+      return True
     if board['top-L'] ==player and board['mid-M'] ==player and board['low-R']==player: 
-      print(player +' is the winner')
+      return True
     if board['mid-L'] ==player and board['mid-M'] ==player and board['mid-R']==player: 
-      print(player +' is the winner')
+      return True
     if board['low-L'] ==player and board['low-M'] ==player and board['low-R']==player: 
-      print(player +' is the winner')
+      return True
     if board['low-L'] ==player and board['mid-M'] ==player and board['top-R']==player:  
-      print(player +' is the winner')
+      return True
     if board['top-R'] ==player and board['mid-R'] ==player and board['low-R']==player: 
-      print(player +' is the winner')
+      return True
     if board['top-M'] ==player and board['mid-M'] ==player and board['low-M']==player:
-      print(player +' is the winner')
-    
+      return True
+    return False
    
 
 def startGame(startingPlayer, board):
