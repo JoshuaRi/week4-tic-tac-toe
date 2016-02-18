@@ -25,38 +25,38 @@ def checkWinner(board, player):
     # variable 'player' has won. The function should return False           #
     # if the player in the variable 'player' has not won.                   #
     #########################################################################
-    if(board['top-L'] =='X' and board['mid-L'] =='X' and board['low-L'])
+    if board['top-L'] =='X' and board['mid-L'] =='X' and board['low-L']:
       print('X is the winner')
-    if(board['top-L'] =='X' and board['top-M'] =='X' and board['top-R'])
+    if board['top-L'] =='X' and board['top-M'] =='X' and board['top-R']:
       print('X is the winner')
-    if(board['top-L'] =='X' and board['mid-M'] =='X' and board['low-R']) 
+    if board['top-L'] =='X' and board['mid-M'] =='X' and board['low-R']: 
       print('X is the winner')
-    if(board['mid-L'] =='X' and board['mid-M'] =='X' and board['mid-R']) 
+    if board['mid-L'] =='X' and board['mid-M'] =='X' and board['mid-R']: 
       print('X is the winner')
-    if(board['low-L'] =='X' and board['low-M'] =='X' and board['low-R']) 
+    if board['low-L'] =='X' and board['low-M'] =='X' and board['low-R']: 
       print('X is the winner')
-    if(board['low-L'] =='X' and board['mid-M'] =='X' and board['top-R'])   
+    if board['low-L'] =='X' and board['mid-M'] =='X' and board['top-R']:  
       print('X is the winner')
-    if(board['top-R'] =='X' and board['mid-R'] =='X' and board['low-R']) 
+    if board['top-R'] =='X' and board['mid-R'] =='X' and board['low-R']: 
       print('X is the winner')
-    if(board['top-M'] =='X' and board['mid-M'] =='X' and board['low-M'])
+    if board['top-M'] =='X' and board['mid-M'] =='X' and board['low-M']:
       print('X is the winner')
     
-    if(board['top-L'] =='O' and board['mid-L'] =='O' and board['low-L'])
+    if board['top-L'] =='O' and board['mid-L'] =='O' and board['low-L']:
       print('O is the winner')
-    if(board['top-L'] =='O' and board['top-M'] =='O' and board['top-R'])
+    if board['top-L'] =='O' and board['top-M'] =='O' and board['top-R']:
       print('O is the winner')
-    if(board['top-L'] =='O' and board['mid-M'] =='O' and board['low-R']) 
+    if board['top-L'] =='O' and board['mid-M'] =='O' and board['low-R']: 
       print('O is the winner')
-    if(board['mid-L'] =='O' and board['mid-M'] =='O' and board['mid-R']) 
+    if board['mid-L'] =='O' and board['mid-M'] =='O' and board['mid-R']: 
       print('O is the winner')
-    if(board['low-L'] =='O' and board['low-M'] =='O' and board['low-R']) 
+    if board['low-L'] =='O' and board['low-M'] =='O' and board['low-R']: 
       print('O is the winner')
-    if(board['low-L'] =='O' and board['mid-M'] =='O' and board['top-R'])   
+    if board['low-L'] =='O' and board['mid-M'] =='O' and board['top-R']:   
       print('O is the winner')
-    if(board['top-R'] =='O' and board['mid-R'] =='O' and board['low-R']) 
+    if board['top-R'] =='O' and board['mid-R'] =='O' and board['low-R']: 
       print('O is the winner')
-    if(board['top-M'] =='O' and board['mid-M'] =='O' and board['low-M'])
+    if board['top-M'] =='O' and board['mid-M'] =='O' and board['low-M']:
       print('O is the winner')
 
 def startGame(startingPlayer, board):
