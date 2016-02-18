@@ -6,12 +6,12 @@ def printBoard(board):
     #                                                                       #
     # Hint: you can follow the same process that was done in the textbook.  #
     #########################################################################
- print (board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
-      print ('-+-+-)
-      print (board['mid-L'] + '|' + board['mid-M'] + '|' + board['mid-R'])
-      print ('-+-+-)
-      print (board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
-      printBoard(theBoard)
+  print (board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
+  print ('-+-+-)
+  print (board['mid-L'] + '|' + board['mid-M'] + '|' + board['mid-R'])
+  print ('-+-+-)
+  print (board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
+  printBoard(theBoard)
 
 
 def checkWinner(board, player):    
